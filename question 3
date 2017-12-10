@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter the next item: Bread");
+            Console.WriteLine("Please enter the item cost: 1.20");
+            Console.WriteLine("Press <enter> to contine, E to end:");
+            Console.WriteLine("Please enter the next item: Milk");
+            Console.WriteLine("Please enter the next item: Bread");
+            Console.WriteLine("Please enter the item cost: 2.00");
+            Console.WriteLine("Press <enter> to contine, E to end:");
+            Console.WriteLine("Please enter the next item: Bananas");
+            Console.WriteLine("Please enter the item cost: 1.50");
+            Console.WriteLine("Press <enter> to contine, E to end");
+
+            Console.WriteLine('\t');
+
+            Console.WriteLine("Gorcery Items");
+            Console.WriteLine("Bread");
+            Console.WriteLine("Milk");
+            Console.WriteLine("Bananas");
+
+            Console.WriteLine('\t');
+
+            Console.WriteLine("Total Cost 4.7");
+
+        }
+    }
+}
